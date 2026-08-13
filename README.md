@@ -21,69 +21,6 @@ The Super Store Sales Dashboard is an interactive Power BI project designed to a
 * Implemented Year and Region slicers for dynamic filtering and deeper business exploration.
 * Generated actionable insights to identify top-performing categories, shipping modes, and sales patterns.
 
-Super Store Sales Dashboard
-```text
-├── 📂 SuperStore Data (Excel Dataset)
-│   │
-│   ├── Orders
-│   ├── Sales
-│   ├── Profit
-│   ├── Discount
-│   └── Region
-│
-├── 🧹 Data Preparation
-│   │
-│   ├── Data Understanding
-│   ├── Check Missing Values
-│   ├── Fix Data Types
-│   ├── Format Dates
-│   └── Remove Errors
-│
-├── 🔄 Data Transformation
-│   │
-│   ├── Power Query
-│   ├── Create Date Fields
-│   └── Prepare Final Dataset
-│
-├── 📐 DAX Measures
-│   │
-│   ├── Total Sales
-│   ├── Total Profit
-│   ├── Total Loss
-│   ├── Total Quantity
-│   └── Total Discount
-│
-├── 📊 Dashboard Development
-│   │
-│   ├── KPI Cards
-│   ├── Ship Mode Analysis
-│   ├── Monthly Sales Trend
-│   ├── Profit by Category
-│   ├── State-wise Map
-│   └── Year & Region Slicers
-│
-├── 🔍 Business Analysis
-│   │
-│   ├── Sales Performance
-│   ├── Profitability Analysis
-│   ├── Category Analysis
-│   ├── Shipping Analysis
-│   └── Regional Analysis
-│
-├── 💡 Key Insights
-│   │
-│   ├── Top Performing Category
-│   ├── Highest Sales Months
-│   ├── Best Performing Regions
-│   └── Profit Drivers
-│
-└── 🎯 Business Decisions
-    │
-    ├── Increase Sales
-    ├── Improve Profit
-    ├── Reduce Losses
-    └── Optimize Shipping
-```
 ---
 
 ## 📈 Dashboard Snapshot
@@ -155,6 +92,69 @@ SuperStore-Sales-Dashboard/
 2. Open `SuperStore112.pbix` in Power BI Desktop.
 3. Refresh the dataset if required.
 4. Explore the dashboard using filters and slicers.
+   Super Store Sales Dashboard
+```text
+├── 📂 SuperStore Data (Excel Dataset)
+│   │
+│   ├── Orders
+│   ├── Sales
+│   ├── Profit
+│   ├── Discount
+│   └── Region
+│
+├── 🧹 Data Preparation
+│   │
+│   ├── Data Understanding
+│   ├── Check Missing Values
+│   ├── Fix Data Types
+│   ├── Format Dates
+│   └── Remove Errors
+│
+├── 🔄 Data Transformation
+│   │
+│   ├── Power Query
+│   ├── Create Date Fields
+│   └── Prepare Final Dataset
+│
+├── 📐 DAX Measures
+│   │
+│   ├── Total Sales
+│   ├── Total Profit
+│   ├── Total Loss
+│   ├── Total Quantity
+│   └── Total Discount
+│
+├── 📊 Dashboard Development
+│   │
+│   ├── KPI Cards
+│   ├── Ship Mode Analysis
+│   ├── Monthly Sales Trend
+│   ├── Profit by Category
+│   ├── State-wise Map
+│   └── Year & Region Slicers
+│
+├── 🔍 Business Analysis
+│   │
+│   ├── Sales Performance
+│   ├── Profitability Analysis
+│   ├── Category Analysis
+│   ├── Shipping Analysis
+│   └── Regional Analysis
+│
+├── 💡 Key Insights
+│   │
+│   ├── Top Performing Category
+│   ├── Highest Sales Months
+│   ├── Best Performing Regions
+│   └── Profit Drivers
+│
+└── 🎯 Business Decisions
+    │
+    ├── Increase Sales
+    ├── Improve Profit
+    ├── Reduce Losses
+    └── Optimize Shipping
+```
 
 ---
 
