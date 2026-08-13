@@ -12,8 +12,78 @@
 
 ## 🎯 Project Overview
 
-This Power BI dashboard analyzes Super Store sales data to uncover trends in revenue, profitability, discounts, shipping methods, and regional performance. The dashboard transforms raw business data into actionable insights through interactive visualizations and KPI tracking.
+The Super Store Sales Dashboard is an interactive Power BI project designed to analyze sales, profit, discounts, and order performance using the Super Store dataset. The project transforms raw transactional data into meaningful business insights through KPI cards, charts, maps, and interactive filters. It helps stakeholders monitor business performance, identify profitable areas, and make data-driven decisions. The dashboard was developed using Power BI, Excel, Power Query, and DAX to provide a clear view of sales trends and regional performance. The analysis covers sales records from 2014 to 2017 and focuses on understanding customer behavior, shipping performance, and category profitability.
 
+### Key Highlights
+
+* Analyzed **$2.3M+ sales data** to evaluate overall business performance and profitability.
+* Built interactive visualizations including KPI cards, sales trends, category analysis, and geographic mapping.
+* Implemented Year and Region slicers for dynamic filtering and deeper business exploration.
+* Generated actionable insights to identify top-performing categories, shipping modes, and sales patterns.
+
+Super Store Sales Dashboard
+```text
+├── 📂 SuperStore Data (Excel Dataset)
+│   │
+│   ├── Orders
+│   ├── Sales
+│   ├── Profit
+│   ├── Discount
+│   └── Region
+│
+├── 🧹 Data Preparation
+│   │
+│   ├── Data Understanding
+│   ├── Check Missing Values
+│   ├── Fix Data Types
+│   ├── Format Dates
+│   └── Remove Errors
+│
+├── 🔄 Data Transformation
+│   │
+│   ├── Power Query
+│   ├── Create Date Fields
+│   └── Prepare Final Dataset
+│
+├── 📐 DAX Measures
+│   │
+│   ├── Total Sales
+│   ├── Total Profit
+│   ├── Total Loss
+│   ├── Total Quantity
+│   └── Total Discount
+│
+├── 📊 Dashboard Development
+│   │
+│   ├── KPI Cards
+│   ├── Ship Mode Analysis
+│   ├── Monthly Sales Trend
+│   ├── Profit by Category
+│   ├── State-wise Map
+│   └── Year & Region Slicers
+│
+├── 🔍 Business Analysis
+│   │
+│   ├── Sales Performance
+│   ├── Profitability Analysis
+│   ├── Category Analysis
+│   ├── Shipping Analysis
+│   └── Regional Analysis
+│
+├── 💡 Key Insights
+│   │
+│   ├── Top Performing Category
+│   ├── Highest Sales Months
+│   ├── Best Performing Regions
+│   └── Profit Drivers
+│
+└── 🎯 Business Decisions
+    │
+    ├── Increase Sales
+    ├── Improve Profit
+    ├── Reduce Losses
+    └── Optimize Shipping
+```
 ---
 
 ## 📈 Dashboard Snapshot
